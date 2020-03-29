@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/blog/test-blog/</loc>
+<lastmod>2020-03-29T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/blog/about</loc>
+</url>
+<url>
+<loc>/blog/categories</loc>
+</url>
+<url>
+<loc>/blog/</loc>
+</url>
+<url>
+<loc>/blog/tags</loc>
+</url>
+<url>
+<loc>/blog/category/jekyll/</loc>
+</url>
+<url>
+<loc>/blog/category/software/</loc>
+</url>
+</urlset>
