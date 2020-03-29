@@ -1,0 +1,2 @@
+Sitemap: https://salimbenhassine.com/sitemap.xml
+Sitemap: https://salimbenhassine.com/blog/sitemap.xml
