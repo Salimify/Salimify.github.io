@@ -1,0 +1,7 @@
+.input-field input,textarea{
+  color: #fff!important;
+}
+.submit-btn:disabled{
+  color: #a8a8a8;
+  cursor: not-allowed;
+}

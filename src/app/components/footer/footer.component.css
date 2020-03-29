@@ -1,0 +1,8 @@
+.footername{
+  color: #9d9ea2;
+  text-align: center;
+  font-size: 11px;
+}
+.footer{
+  z-index: 3;
+}

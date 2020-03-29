@@ -1,0 +1,65 @@
+<section id="contact" class="section section-contact">
+  <div class="animate-up">
+    <h2 class="section-title abt-title sect-title" translate><span class="title-number">07. </span>contact.title</h2>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="section-box contact-form">
+          <h3 translate>contact.mecontacter</h3>
+
+          <form class="contactForm" (ngSubmit)="onSubmit(f.value)" #f="ngForm">
+            <div class="input-field">
+              <input class="contact-name" required type="text" [(ngModel)]="data.name" name="name"/>
+              <span class="line"></span>
+              <label translate>contact.name</label>
+            </div>
+
+            <div class="input-field">
+              <input class="contact-email" required type="email" [(ngModel)]="data.email" name="email"/>
+              <span class="line"></span>
+              <label translate>contact.email</label>
+            </div>
+
+            <div class="input-field">
+              <input class="contact-subject" required type="text" [(ngModel)]="data.subject" name="subject"/>
+              <span class="line"></span>
+              <label translate>contact.subject</label>
+            </div>
+
+            <div class="input-field">
+              <textarea class="contact-message" required rows="4" [(ngModel)]="data.message" name="message"></textarea>
+              <span class="line"></span>
+              <label translate>contact.message</label>
+            </div>
+
+            <span class="btn-outer btn-primary-outer ripple">
+              <input class="btn btn-lg btn-primary submit-btn" [disabled]="f.invalid" type="submit" value="{{ 'contact.send' | translate }}"/>
+            </span>
+
+            <div class="contact-response">{{successMessage}}</div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="section-box contact-info has-map">
+          <ul class="contact-list">
+            <li class="clearfix">
+              <strong translate>contact.address</strong>
+              <span>Nabeul, Tunisie</span>
+            </li>
+            <li class="clearfix">
+              <strong translate>contact.phone</strong>
+              <span><a href="tel:+21624566386">+21624566386</a></span>
+            </li>
+            <li class="clearfix">
+              <strong translate>contact.email</strong>
+              <span><a href="mailto:salim.benhassine@esprit.tn">salim.bnhassine@gmail.com</a></span>
+            </li>
+          </ul>
+          <div id="map" data-latitude="36.8454047" data-longitude="10.1850718"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "11.0"
+branches:
+  only:
+    - master
+before_script:
+  - npm install -g @angular/cli
+script:
+  - npm install
+  - npm run build
+notifications:
+  webhooks:
+    on_success: change
+    on_failure: always
+    on_start: never
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  repo: Salimify/Salimify.github.io
+  target-branch: master
+  keep_history: true
+  on:
+    branch: master
