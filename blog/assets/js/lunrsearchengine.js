@@ -1,32 +1,32 @@
 
 var documents = [{
     "id": 0,
-    "url": "/blog/404.html",
+    "url": "https://salimbenhassine.com/blog/404.html",
     "title": "404",
     "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
     }, {
     "id": 1,
-    "url": "/blog/about",
+    "url": "https://salimbenhassine.com/blog/about",
     "title": "Salim Ben Hassine",
     "body": " I am a software engineer based in Tunis, Tunisia, specialized in creating and designing of high quality Web, Desktop and Mobile applications. . . Contact informations: You can check my CV here! GithubYou can take a look at my repos here Salimify . "
     }, {
     "id": 2,
-    "url": "/blog/categories",
+    "url": "https://salimbenhassine.com/blog/categories",
     "title": "Categories",
     "body": ""
     }, {
     "id": 3,
-    "url": "/blog/",
+    "url": "https://salimbenhassine.com/blog/",
     "title": "Home",
     "body": "      Featured:                                                                                                                                                                                                           Testing first blog                                                 1 2 3 4 5                                              :               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. :                                                                                                                                                                       Salim Ben Hassine                                29 Mar 2020                                                                                                                        All Stories:                                                                                                     Testing first blog                         1 2 3 4 5                      :       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. :                                                                               Salim Ben Hassine                29 Mar 2020                                                    "
     }, {
     "id": 4,
-    "url": "/blog/robots.txt",
+    "url": "https://salimbenhassine.com/blog/robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
-    "url": "/blog/test-blog/",
+    "url": "https://salimbenhassine.com/blog/test-blog/",
     "title": "Testing first blog",
     "body": "2020/03/29 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. How to use?: It’s actually really simple! Add the rating in your YAML front matter. It also supports halfs: 12345678910---layout: posttitle:  Inception Movie author: johncategories: [ Jekyll, tutorial ]tags: [red, yellow]image: assets/images/11. jpgdescription:  My review of Inception movie. Actors, directing and more.  rating: 4. 5---"
     }];

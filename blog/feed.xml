@@ -3,10 +3,10 @@
   <channel>
     <title>Salim's Blog</title>
     <description>Think twice, Code once!</description>
-    <link>/blog/</link>
-    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2020 06:34:37 +0000</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2020 06:34:37 +0000</lastBuildDate>
+    <link>https://salimbenhassine.com/blog/</link>
+    <atom:link href="https://salimbenhassine.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 Mar 2020 07:29:38 +0000</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 07:29:38 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -40,8 +40,8 @@ rating: 4.5
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-        <link>/blog/test-blog/</link>
-        <guid isPermaLink="true">/blog/test-blog/</guid>
+        <link>https://salimbenhassine.com/blog/test-blog/</link>
+        <guid isPermaLink="true">https://salimbenhassine.com/blog/test-blog/</guid>
         
         <category>red</category>
         
